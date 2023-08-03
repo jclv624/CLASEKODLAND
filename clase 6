@@ -27,4 +27,4 @@ async def generarideas(ctx):
     idea=random.choice(ideas)
     await ctx.send(f"ideas para manualidades con plastico: {idea}")
 
-bot.run("MTEyOTA5Mjk3MzkwNTMxODA1OA.GDW-1Z.taCdtsETWwzrTP3krT3yqY9ah5QDQ4YQ4xXgq4")    
+  
