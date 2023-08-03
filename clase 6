@@ -11,13 +11,12 @@ bot =commands.Bot(command_prefix='!',intents=intents)
 
 #lista de ideas para manualidades con plastico 
 ideas=["Transforma botellas de plastico en macetas para las platantas, como hacer lo en https://www.youtube.com/watch?v=M-3MTscDZ5M mas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/",
-       "crear pulseras con hilos o tapas plasticas mas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/",
        "Una trampa para peces  como hacer lo en https://www.youtube.com/watch?v=myDGUpHA0i8mas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/", 
-       "convertir botellas de plastico en hilo para luego ser utilizado en impresoras 3D commo hacer lo en https://www.youtube.com/watch?v=mtATgxH-LNkmas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/",
+       "convertir botellas de plastico en hilo para luego ser utilizado en impresoras 3D commo hacer lo en https://www.youtube.com/watch?v=zf1-TFJdjL4s ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/",
         "Goteo solar con botellas de plástico como hacer lo en https://www.youtube.com/watch?v=ldlbL7HjIlE mas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/",
          " Reutilizar una botella de plástico para hacer un estuche como hecer lo en https://www.youtube.com/watch?v=JHpltUJDdHQ mas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/",
          "Comedero para pájaros como hecer lo en https://www.youtube.com/watch?v=SLtGqLQfEgc mas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/",
-         "Jardín hidropónico, una forma creativa de reutilizar plástico como hacer lo en https://www.youtube.com/watch?v=9k_INlQlX08 mas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/"]
+         "Jardín hidropónico, una forma creativa de reutilizar plástico como hacerlo en https://www.youtube.com/watch?v=9k_INlQlX08&t=18s  mas ideas en https://www.fundacionaquae.org/wiki/consejos-para-reutilizar-botellas-de-plastico/"]
 @bot.event
 async def on_ready():
     print(f"inicio tu chat satifactoriamente ID: {bot.user.id}, Usuario, {bot.user}")
